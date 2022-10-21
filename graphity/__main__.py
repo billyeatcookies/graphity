@@ -12,3 +12,7 @@ ui
 +--------------------------------------+
 
 """
+
+from app import App
+app = App()
+app.launch()
