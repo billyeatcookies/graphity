@@ -1,8 +1,10 @@
 import tkinter as tk
 
+from .layout import Root
+
 class App:
     def __init__(self, *args, **kwargs):
-        self.root = tk.Tk()
+        self.root = Root()
 
     def launch(self):
         print("launch successful")
